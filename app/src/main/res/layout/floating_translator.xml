@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/floating_shape">
+
+    <EditText
+        android:layout_width="500px"
+        android:layout_height="150px"
+        android:id="@+id/schs"
+        android:layout_gravity="center"
+        android:background="@drawable/floating_shape1"
+        android:text="简体中文"/>
+    <EditText
+        android:layout_width="500px"
+        android:layout_height="150px"
+        android:id="@+id/fchs"
+        android:layout_gravity="center"
+        android:background="@drawable/floating_shape1"
+        android:text="繁體中文"/>
+    <EditText
+        android:layout_width="500px"
+        android:layout_height="150px"
+        android:id="@+id/hxchs"
+        android:layout_gravity="center"
+        android:text="焱暒妏"
+        android:background="@drawable/floating_shape1"/>
+</LinearLayout>
